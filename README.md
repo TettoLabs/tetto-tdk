@@ -40,26 +40,26 @@ This repository contains comprehensive research and implementation guides create
 
 ### Core Research Documents
 
-1. **[TDK_OUTLINE.md](./TDK_OUTLINE.md)** - Start here! Complete roadmap and overview
-2. **[TDK_MEGA_RESEARCH_FINDINGS.md](./TDK_MEGA_RESEARCH_FINDINGS.md)** - Comprehensive research findings
-3. **[MEGA_AI1_HANDOFF.md](./MEGA_AI1_HANDOFF.md)** - Research session handoff document
+1. **[TDK_OUTLINE.md](./research/TDK_OUTLINE.md)** - Start here! Complete roadmap and overview
+2. **[TDK_MEGA_RESEARCH_FINDINGS.md](./research/TDK_MEGA_RESEARCH_FINDINGS.md)** - Comprehensive research findings
+3. **[MEGA_AI1_HANDOFF.md](./research/MEGA_AI1_HANDOFF.md)** - Research session handoff document
 
 ### Architecture & Design
 
-4. **[TDK_ARCHITECTURE_COMPANION_RESEARCH.md](./TDK_ARCHITECTURE_COMPANION_RESEARCH.md)**
+4. **[TDK_ARCHITECTURE_COMPANION_RESEARCH.md](./research/TDK_ARCHITECTURE_COMPANION_RESEARCH.md)**
    - Deep analysis of plugin vs generic approach
    - **Recommendation:** Hybrid architecture (generic + built-in shortcuts + optional plugins)
    - 1,370 lines of architectural decision analysis
 
 ### Implementation Guides
 
-5. **[TDK_CLIENT_START_HERE.md](./TDK_CLIENT_START_HERE.md)** (1,549 lines)
+5. **[TDK_CLIENT_START_HERE.md](./research/TDK_CLIENT_START_HERE.md)** (1,549 lines)
    - Guide for building the `@tetto/sdk` NPM package
    - Complete client library implementation
    - TypeScript client with elegant API
    - ~6 hours estimated effort
 
-6. **[TDK_CORE_START_HERE.md](./TDK_CORE_START_HERE.md)** (2,484 lines)
+6. **[TDK_CORE_START_HERE.md](./research/TDK_CORE_START_HERE.md)** (2,484 lines)
    - Backend infrastructure guide (29 hours effort)
    - Database schema (4 tables)
    - Wallet encryption layer (AES-256-GCM)
@@ -67,7 +67,7 @@ This repository contains comprehensive research and implementation guides create
    - TDK API Gateway (14 endpoints)
    - Stripe billing integration
 
-7. **[TDK_PLUGINS_START_HERE.md](./TDK_PLUGINS_START_HERE.md)**
+7. **[TDK_PLUGINS_START_HERE.md](./research/TDK_PLUGINS_START_HERE.md)**
    - Plugin development guide
    - WarmMemory and WarmAnswers plugin specs
    - Community plugin submission process
@@ -212,22 +212,22 @@ WalletInspect: $0.040/op → Developer pays $0.0600/op
 
 ### For Implementers
 
-1. **Start with:** [TDK_OUTLINE.md](./TDK_OUTLINE.md) - Get the big picture
-2. **Architecture:** [TDK_ARCHITECTURE_COMPANION_RESEARCH.md](./TDK_ARCHITECTURE_COMPANION_RESEARCH.md) - Understand design decisions
+1. **Start with:** [TDK_OUTLINE.md](./research/TDK_OUTLINE.md) - Get the big picture
+2. **Architecture:** [TDK_ARCHITECTURE_COMPANION_RESEARCH.md](./research/TDK_ARCHITECTURE_COMPANION_RESEARCH.md) - Understand design decisions
 3. **Implementation:** Follow the START_HERE guides in order:
-   - [TDK_CORE_START_HERE.md](./TDK_CORE_START_HERE.md) - Backend first
-   - [TDK_CLIENT_START_HERE.md](./TDK_CLIENT_START_HERE.md) - Client library
-   - [TDK_PLUGINS_START_HERE.md](./TDK_PLUGINS_START_HERE.md) - Optional plugins
+   - [TDK_CORE_START_HERE.md](./research/TDK_CORE_START_HERE.md) - Backend first
+   - [TDK_CLIENT_START_HERE.md](./research/TDK_CLIENT_START_HERE.md) - Client library
+   - [TDK_PLUGINS_START_HERE.md](./research/TDK_PLUGINS_START_HERE.md) - Optional plugins
 
 ### For Researchers
 
-- **Findings:** [TDK_MEGA_RESEARCH_FINDINGS.md](./TDK_MEGA_RESEARCH_FINDINGS.md)
-- **Handoff:** [MEGA_AI1_HANDOFF.md](./MEGA_AI1_HANDOFF.md)
+- **Findings:** [TDK_MEGA_RESEARCH_FINDINGS.md](./research/TDK_MEGA_RESEARCH_FINDINGS.md)
+- **Handoff:** [MEGA_AI1_HANDOFF.md](./research/MEGA_AI1_HANDOFF.md)
 
 ### For Decision Makers
 
-- Read [TDK_OUTLINE.md](./TDK_OUTLINE.md) for executive summary
-- Review architecture decision in [TDK_ARCHITECTURE_COMPANION_RESEARCH.md](./TDK_ARCHITECTURE_COMPANION_RESEARCH.md)
+- Read [TDK_OUTLINE.md](./research/TDK_OUTLINE.md) for executive summary
+- Review architecture decision in [TDK_ARCHITECTURE_COMPANION_RESEARCH.md](./research/TDK_ARCHITECTURE_COMPANION_RESEARCH.md)
 - Check effort estimates and timelines
 
 ---
